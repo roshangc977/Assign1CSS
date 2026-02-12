@@ -44,3 +44,27 @@ p {
     margin-bottom: 1rem;
     font-size: 1.1rem;
 }
+
+/*Layout*/
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+article {
+    grid-column: 1 / 2;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+aside {
+    background-color: #1c1c1c;
+    padding: 1.5rem;
+    border-left: 4px solid #c9a227;
+}
+
