@@ -89,3 +89,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/*Responsiveness*/
+
+@media (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        border-left: none;
+        border-top: 4px solid #c9a227;
+    }
+}
