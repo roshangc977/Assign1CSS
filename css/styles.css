@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*CSS normalization and box-sizing*/
+html {
+    box-sizing: border-box;
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
