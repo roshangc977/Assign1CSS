@@ -68,3 +68,24 @@ aside {
     border-left: 4px solid #c9a227;
 }
 
+/*Header/Footer*/
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+footer {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #bbb;
+}
+
+a {
+    color: #c9a227;
+}
+
+a:hover {
+    text-decoration: underline;
+}
